@@ -9,9 +9,9 @@ func main() {
 	if x == y && y == 0 {
 		fmt.Println("Origem")
 	} else if x == 0 {
-		fmt.Println("Eixo X")
-	} else if y == 0 {
 		fmt.Println("Eixo Y")
+	} else if y == 0 {
+		fmt.Println("Eixo X")
 	} else if x > 0 && y > 0 {
 		fmt.Println("Q1")
 	} else if x < 0 && y > 0 {
